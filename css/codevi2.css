@@ -1,0 +1,172 @@
+.banner 
+{
+  display: flex;
+  background-color: black;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  
+}
+.texto
+{
+  font-family: "Josefin Sans", sans-serif;
+  color:#adebff;
+  background-color: black;
+  text-align: center;
+  justify-content: center;
+  font-size: 25px;
+  width: 50%;
+}
+
+.btn {
+  font-size: 1.2rem;
+  padding: 1rem 2.5rem;
+  border: none;
+  outline: none;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  text-transform: uppercase;
+  background-color: rgb(14, 14, 26);
+  color: rgb(234, 234, 234);
+  font-weight: 700;
+  transition: 0.6s;
+  box-shadow: 0px 0px 60px #1f4c65;
+  -webkit-box-reflect: below 10px linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.4));
+}
+
+.btn:active {
+  scale: 0.92;
+}
+
+.btn:hover {
+  background: rgb(9,0, 186) (9,0,186);
+  background: linear-gradient(270deg, rgba(2, 29, 78, 0.681) 0%, rgba(31, 215, 232, 0.873) 60%);
+  color: rgb(4, 4, 38);
+}
+.banner h1
+{
+  font-family: "MuseoModerno", sans-serif;
+  font-size: 40px;
+}
+
+
+
+.banner2
+{
+  display: flex;
+  background-color: black;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.texto2
+{
+  font-family: "Josefin Sans", sans-serif;
+  color:#adebff;
+  background-color: black;
+  text-align: center;
+  justify-content: center;
+  font-size: 25px;
+}
+.titulo
+{
+  color: #adebff;
+  background-color: black;
+  text-align: center;
+}
+.serviços
+{
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 5rem;
+  font-family: "Josefin Sans", sans-serif;
+  
+}
+
+.card {
+  width: 190px;
+  border-radius: 30px;
+  background: #000000;
+ flex-direction: column;
+  color: aliceblue;
+  align-items: center;
+  display: flex;
+  text-align: left;
+ }
+.card1 {
+  display: flex;
+  width: 190px;
+  border-radius: 30px;
+  background: #000000;
+  color: aliceblue;
+  flex-direction: column;
+  align-items: center;
+  text-align: left;
+  
+ }
+.card2 {
+  width: 190px;
+  border-radius: 30px;
+  background: #000000;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  align-items: center;
+  
+  
+}
+ 
+.card img
+{
+  
+  height: 100px
+}
+.card1 img
+{
+  
+  height: 100px
+}
+.card2 img
+{
+  
+  height: 100px;
+}
+
+.TodosServiços
+{
+  margin-top: 5rem;
+  
+}
+
+.titulodocard
+{
+  font-size: 18px;
+  color: #0900ba;
+  
+}
+.titulodocard1
+{
+  font-size: 18px;
+  color: #0900ba;
+  
+}
+.titulodocard2
+{
+  font-size: 18px;
+  color: #0900ba;
+  
+}
+.contexto
+{
+  font-family: "DM Serif Display", serif;
+}
+
+@media(max-width: 750px)
+{
+  .serviços{
+    flex-direction: column;
+    align-items: center;
+  }
+}
